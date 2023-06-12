@@ -7,7 +7,7 @@ const requestPokemon = async (PokeID) => {
     const PokeData = {
       name: data.name,
       id: data.id,
-      img: data.sprites.back_default,
+      img: data.sprites.front_default,
       types: data.types,
       height: data.height / 10,
       weight: data.weight / 10,

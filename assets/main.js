@@ -60,7 +60,7 @@ const RenderPokemon = (Pokemon) => {
         <img class="pokeImg"
         src="${img}"/>
         <div class="poke-info">
-          <span class="pokeId">ID: #${id}</span>
+          <span class="pokeId">#${id}</span>
           <div class="pokeTypes">
           <span class="normal pokeType">Type: ${RenderTypes(types)}</span>
           </div>
