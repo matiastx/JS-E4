@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+  .pokedex {
+    height: 650px;
+  }
+
+  .Title h1 {
+    font-size: 24px;
+    margin-left: 0px;
+    justify-content: flex-start;
+  }
+
+  .decorationG {
+    height: 50%;
+    width: 100px;
+  }
+
+  .ds {
+    height: 30px;
+    width: 30px;
+  }
+
+  .pokeName {
+    font-size: 16px;
+  }
+
+  .poke-info {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .search-container {
+    height: 10%;
+    font-size: 8px;
+  }
+}

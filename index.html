@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E4: Asincronismo + API'S</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
+  </head>
+  <body>
+    <main>
+      <div class="pokedex flex">
+        <div class="decoratonsUP flex">
+          <div class="decorationG"></div>
+          <div class="decointer flex">
+            <div class="decorationS flex">
+              <div class="ds red"></div>
+              <div class="ds yellow"></div>
+              <div class="ds green"></div>
+            </div>
+            <div class="Title flex"><h1 class="search-title">PokeDex</h1></div>
+          </div>
+        </div>
+        <div class="displayOut flex">
+          <div class="displayIn flex">
+            <div class="poke-container">
+              <!-- <div class="poke flex">
+                <h2 class="pokeName">Ditto</h2>
+                <div class="poke-data">
+                  <img
+                    class="pokeImg"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png" />
+                  <div class="poke-info">
+                    <span class="pokeId">ID: #132</span>
+                    <div class="pokeTypes">
+                      <span class="normal pokeType">Type: Normal</span>
+                    </div>
+                    <p class="height">Height: 3m</p>
+                    <p class="weight">Weight: 40Kg</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="form-container flex">
+          <div class="search-box">
+            <form id="form">
+              <button type="submit" class="txt-container btn">
+                Buscar
+              </button>
+              <input
+                type="text"
+                name="PokeSearchBox"
+                autocomplete="off"
+                placeholder="Pokemon Nº"
+                class="input txt-container" />
+            </form>
+          </div>
+        </div>
+        <div class="decorationS down flex">
+              <div class="ds red"></div>
+              <div class="ds yellow"></div>
+              <div class="ds green"></div>
+            
+      </div>
+      <div class="search-container">
+          <h2 class="search-msg">Ingrese El Numero de Pokemon...</h2>
+        </div>
+    </main>
+    <script src="./assets/request.js"></script>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
